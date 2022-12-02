@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aoc2022",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1a-Debug-1ab4c8d83584a88890fc.json",
+					"name" : "1a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1b-Debug-f457f15eb4d358396c76.json",
+					"name" : "1b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2a-Debug-1a66ef34b679e353493a.json",
+					"name" : "2a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2b-Debug-f78831684c40407233e8.json",
+					"name" : "2b",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chensiyuan/aoc2022/cmake-build-debug",
+		"source" : "/Users/chensiyuan/aoc2022"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
