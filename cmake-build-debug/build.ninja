@@ -38,128 +38,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/chensiyuan/aoc2022/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1a
+# Object build statements for EXECUTABLE target 4a
 
 
 #############################################
-# Order-only phony target for 1a
+# Order-only phony target for 4a
 
-build cmake_object_order_depends_target_1a: phony || CMakeFiles/1a.dir
+build cmake_object_order_depends_target_4a: phony || CMakeFiles/4a.dir
 
-build CMakeFiles/1a.dir/1/1a.cpp.o: CXX_COMPILER__1a_Debug /Users/chensiyuan/aoc2022/1/1a.cpp || cmake_object_order_depends_target_1a
-  DEP_FILE = CMakeFiles/1a.dir/1/1a.cpp.o.d
+build CMakeFiles/4a.dir/4/4a.cpp.o: CXX_COMPILER__4a_Debug /Users/chensiyuan/aoc2022/4/4a.cpp || cmake_object_order_depends_target_4a
+  DEP_FILE = CMakeFiles/4a.dir/4/4a.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/1a.dir
-  OBJECT_FILE_DIR = CMakeFiles/1a.dir/1
+  OBJECT_DIR = CMakeFiles/4a.dir
+  OBJECT_FILE_DIR = CMakeFiles/4a.dir/4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1a
+# Link build statements for EXECUTABLE target 4a
 
 
 #############################################
-# Link the executable 1a
+# Link the executable 4a
 
-build 1a: CXX_EXECUTABLE_LINKER__1a_Debug CMakeFiles/1a.dir/1/1a.cpp.o
+build 4a: CXX_EXECUTABLE_LINKER__4a_Debug CMakeFiles/4a.dir/4/4a.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/1a.dir
+  OBJECT_DIR = CMakeFiles/4a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1a
-  TARGET_PDB = 1a.dbg
+  TARGET_FILE = 4a
+  TARGET_PDB = 4a.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1b
+# Object build statements for EXECUTABLE target 4b
 
 
 #############################################
-# Order-only phony target for 1b
+# Order-only phony target for 4b
 
-build cmake_object_order_depends_target_1b: phony || CMakeFiles/1b.dir
+build cmake_object_order_depends_target_4b: phony || CMakeFiles/4b.dir
 
-build CMakeFiles/1b.dir/1/1b.cpp.o: CXX_COMPILER__1b_Debug /Users/chensiyuan/aoc2022/1/1b.cpp || cmake_object_order_depends_target_1b
-  DEP_FILE = CMakeFiles/1b.dir/1/1b.cpp.o.d
+build CMakeFiles/4b.dir/4/4b.cpp.o: CXX_COMPILER__4b_Debug /Users/chensiyuan/aoc2022/4/4b.cpp || cmake_object_order_depends_target_4b
+  DEP_FILE = CMakeFiles/4b.dir/4/4b.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/1b.dir
-  OBJECT_FILE_DIR = CMakeFiles/1b.dir/1
+  OBJECT_DIR = CMakeFiles/4b.dir
+  OBJECT_FILE_DIR = CMakeFiles/4b.dir/4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1b
+# Link build statements for EXECUTABLE target 4b
 
 
 #############################################
-# Link the executable 1b
+# Link the executable 4b
 
-build 1b: CXX_EXECUTABLE_LINKER__1b_Debug CMakeFiles/1b.dir/1/1b.cpp.o
+build 4b: CXX_EXECUTABLE_LINKER__4b_Debug CMakeFiles/4b.dir/4/4b.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/1b.dir
+  OBJECT_DIR = CMakeFiles/4b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1b
-  TARGET_PDB = 1b.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2a
-
-
-#############################################
-# Order-only phony target for 2a
-
-build cmake_object_order_depends_target_2a: phony || CMakeFiles/2a.dir
-
-build CMakeFiles/2a.dir/2/2a.cpp.o: CXX_COMPILER__2a_Debug /Users/chensiyuan/aoc2022/2/2a.cpp || cmake_object_order_depends_target_2a
-  DEP_FILE = CMakeFiles/2a.dir/2/2a.cpp.o.d
-  FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/2a.dir
-  OBJECT_FILE_DIR = CMakeFiles/2a.dir/2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2a
-
-
-#############################################
-# Link the executable 2a
-
-build 2a: CXX_EXECUTABLE_LINKER__2a_Debug CMakeFiles/2a.dir/2/2a.cpp.o
-  FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/2a.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2a
-  TARGET_PDB = 2a.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2b
-
-
-#############################################
-# Order-only phony target for 2b
-
-build cmake_object_order_depends_target_2b: phony || CMakeFiles/2b.dir
-
-build CMakeFiles/2b.dir/2/2b.cpp.o: CXX_COMPILER__2b_Debug /Users/chensiyuan/aoc2022/2/2b.cpp || cmake_object_order_depends_target_2b
-  DEP_FILE = CMakeFiles/2b.dir/2/2b.cpp.o.d
-  FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/2b.dir
-  OBJECT_FILE_DIR = CMakeFiles/2b.dir/2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2b
-
-
-#############################################
-# Link the executable 2b
-
-build 2b: CXX_EXECUTABLE_LINKER__2b_Debug CMakeFiles/2b.dir/2/2b.cpp.o
-  FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/2b.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2b
-  TARGET_PDB = 2b.dbg
+  TARGET_FILE = 4b
+  TARGET_PDB = 4b.dbg
 
 
 #############################################
@@ -195,7 +133,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chensiyuan/aoc2022/cmake-build-debug
 
-build all: phony 1a 1b 2a 2b
+build all: phony 4a 4b
 
 # =============================================================================
 # Built-in targets
