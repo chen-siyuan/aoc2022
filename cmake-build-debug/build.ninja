@@ -38,66 +38,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/chensiyuan/aoc2022/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 4a
+# Object build statements for EXECUTABLE target 5a
 
 
 #############################################
-# Order-only phony target for 4a
+# Order-only phony target for 5a
 
-build cmake_object_order_depends_target_4a: phony || CMakeFiles/4a.dir
+build cmake_object_order_depends_target_5a: phony || CMakeFiles/5a.dir
 
-build CMakeFiles/4a.dir/4/4a.cpp.o: CXX_COMPILER__4a_Debug /Users/chensiyuan/aoc2022/4/4a.cpp || cmake_object_order_depends_target_4a
-  DEP_FILE = CMakeFiles/4a.dir/4/4a.cpp.o.d
+build CMakeFiles/5a.dir/5/5a.cpp.o: CXX_COMPILER__5a_Debug /Users/chensiyuan/aoc2022/5/5a.cpp || cmake_object_order_depends_target_5a
+  DEP_FILE = CMakeFiles/5a.dir/5/5a.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/4a.dir
-  OBJECT_FILE_DIR = CMakeFiles/4a.dir/4
+  OBJECT_DIR = CMakeFiles/5a.dir
+  OBJECT_FILE_DIR = CMakeFiles/5a.dir/5
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 4a
+# Link build statements for EXECUTABLE target 5a
 
 
 #############################################
-# Link the executable 4a
+# Link the executable 5a
 
-build 4a: CXX_EXECUTABLE_LINKER__4a_Debug CMakeFiles/4a.dir/4/4a.cpp.o
+build 5a: CXX_EXECUTABLE_LINKER__5a_Debug CMakeFiles/5a.dir/5/5a.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/4a.dir
+  OBJECT_DIR = CMakeFiles/5a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 4a
-  TARGET_PDB = 4a.dbg
+  TARGET_FILE = 5a
+  TARGET_PDB = 5a.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 4b
+# Object build statements for EXECUTABLE target 5b
 
 
 #############################################
-# Order-only phony target for 4b
+# Order-only phony target for 5b
 
-build cmake_object_order_depends_target_4b: phony || CMakeFiles/4b.dir
+build cmake_object_order_depends_target_5b: phony || CMakeFiles/5b.dir
 
-build CMakeFiles/4b.dir/4/4b.cpp.o: CXX_COMPILER__4b_Debug /Users/chensiyuan/aoc2022/4/4b.cpp || cmake_object_order_depends_target_4b
-  DEP_FILE = CMakeFiles/4b.dir/4/4b.cpp.o.d
+build CMakeFiles/5b.dir/5/5b.cpp.o: CXX_COMPILER__5b_Debug /Users/chensiyuan/aoc2022/5/5b.cpp || cmake_object_order_depends_target_5b
+  DEP_FILE = CMakeFiles/5b.dir/5/5b.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/4b.dir
-  OBJECT_FILE_DIR = CMakeFiles/4b.dir/4
+  OBJECT_DIR = CMakeFiles/5b.dir
+  OBJECT_FILE_DIR = CMakeFiles/5b.dir/5
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 4b
+# Link build statements for EXECUTABLE target 5b
 
 
 #############################################
-# Link the executable 4b
+# Link the executable 5b
 
-build 4b: CXX_EXECUTABLE_LINKER__4b_Debug CMakeFiles/4b.dir/4/4b.cpp.o
+build 5b: CXX_EXECUTABLE_LINKER__5b_Debug CMakeFiles/5b.dir/5/5b.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/4b.dir
+  OBJECT_DIR = CMakeFiles/5b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 4b
-  TARGET_PDB = 4b.dbg
+  TARGET_FILE = 5b
+  TARGET_PDB = 5b.dbg
 
 
 #############################################
@@ -133,7 +133,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chensiyuan/aoc2022/cmake-build-debug
 
-build all: phony 4a 4b
+build all: phony 5a 5b
 
 # =============================================================================
 # Built-in targets
