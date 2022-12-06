@@ -1,4 +1,23 @@
 "/Users/chensiyuan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/chensiyuan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/chensiyuan/aoc2022 -B /Users/chensiyuan/aoc2022/cmake-build-debug
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/chensiyuan/aoc2022/cmake-build-debug
+CMake Error at CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    7/7a.cpp
+
+
+CMake Error at CMakeLists.txt:20 (add_executable):
+  Cannot find source file:
+
+    7/7b.cpp
+
+
+CMake Error at CMakeLists.txt:19 (add_executable):
+  No SOURCES given to target: 7a
+
+
+CMake Error at CMakeLists.txt:20 (add_executable):
+  No SOURCES given to target: 7b
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
