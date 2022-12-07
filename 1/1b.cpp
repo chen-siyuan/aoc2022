@@ -4,10 +4,11 @@ using namespace std;
 using ll = long long;
 
 int main() {
+    ifstream fin("../1/1.txt");
     string line;
     multiset<ll> M;
     ll curr = 0LL;
-    while (getline(cin, line)) {
+    while (getline(fin, line)) {
         if (line.empty()) {
             M.insert(curr);
             curr = 0LL;

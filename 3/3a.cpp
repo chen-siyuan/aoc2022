@@ -3,9 +3,10 @@
 using namespace std;
 
 int main() {
+    ifstream fin("../3/3.txt");
     int res = 0;
     string line;
-    while (getline(cin, line)) {
+    while (getline(fin, line)) {
         int n = line.size();
         assert(n % 2 == 0);
         bool flag = false;

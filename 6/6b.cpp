@@ -15,8 +15,9 @@ struct CustomHash {
 };
 
 int main() {
+    ifstream fin("../6/6.txt");
     string line;
-    cin >> line;
+    fin >> line;
     int n = line.size();
     unordered_map<char, int, CustomHash> M;
     for (int i = 0; i < 13; i++) {

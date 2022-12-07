@@ -3,11 +3,12 @@
 using namespace std;
 
 int main() {
+    ifstream fin("../3/3.txt");
     int res = 0;
     string line0, line1, line2;
-    while (getline(cin, line0)) {
-        getline(cin, line1);
-        getline(cin, line2);
+    while (getline(fin, line0)) {
+        getline(fin, line1);
+        getline(fin, line2);
         vector<bool> B0(52), B1(52), B2(52);
         for (auto c: line0)
             B0['a' <= c && c <= 'z' ? c - 'a' : c - 'A' + 26] = true;

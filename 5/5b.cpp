@@ -3,12 +3,14 @@
 using namespace std;
 
 int main() {
+    ifstream fin("../5/5.txt");
+
     int const N = 9;
     deque<int> A[N];
 
     string line;
     for (int i = 0; i < 8; i++) {
-        getline(cin, line);
+        getline(fin, line);
         for (int j = 0; j < N; j++) {
             if (line[1 + j * 4] != ' ') {
                 A[j].push_front(line[1 + j * 4] - 'A');
@@ -21,7 +23,7 @@ int main() {
     }
     cout << '\n';
 
-    while (getline(cin, line)) {
+    while (getline(fin, line)) {
         int k, x, y;
         if (line.size() == 18) {
             k = line[5] - '0';

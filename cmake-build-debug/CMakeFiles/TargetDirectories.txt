@@ -1,4 +1,4 @@
-/Users/chensiyuan/aoc2022/cmake-build-debug/CMakeFiles/6a.dir
-/Users/chensiyuan/aoc2022/cmake-build-debug/CMakeFiles/6b.dir
+/Users/chensiyuan/aoc2022/cmake-build-debug/CMakeFiles/8a.dir
+/Users/chensiyuan/aoc2022/cmake-build-debug/CMakeFiles/8b.dir
 /Users/chensiyuan/aoc2022/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chensiyuan/aoc2022/cmake-build-debug/CMakeFiles/rebuild_cache.dir
