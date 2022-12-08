@@ -38,66 +38,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/chensiyuan/aoc2022/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 8a
+# Object build statements for EXECUTABLE target 9a
 
 
 #############################################
-# Order-only phony target for 8a
+# Order-only phony target for 9a
 
-build cmake_object_order_depends_target_8a: phony || CMakeFiles/8a.dir
+build cmake_object_order_depends_target_9a: phony || CMakeFiles/9a.dir
 
-build CMakeFiles/8a.dir/8/8a.cpp.o: CXX_COMPILER__8a_Debug /Users/chensiyuan/aoc2022/8/8a.cpp || cmake_object_order_depends_target_8a
-  DEP_FILE = CMakeFiles/8a.dir/8/8a.cpp.o.d
+build CMakeFiles/9a.dir/9/9a.cpp.o: CXX_COMPILER__9a_Debug /Users/chensiyuan/aoc2022/9/9a.cpp || cmake_object_order_depends_target_9a
+  DEP_FILE = CMakeFiles/9a.dir/9/9a.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/8a.dir
-  OBJECT_FILE_DIR = CMakeFiles/8a.dir/8
+  OBJECT_DIR = CMakeFiles/9a.dir
+  OBJECT_FILE_DIR = CMakeFiles/9a.dir/9
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 8a
+# Link build statements for EXECUTABLE target 9a
 
 
 #############################################
-# Link the executable 8a
+# Link the executable 9a
 
-build 8a: CXX_EXECUTABLE_LINKER__8a_Debug CMakeFiles/8a.dir/8/8a.cpp.o
+build 9a: CXX_EXECUTABLE_LINKER__9a_Debug CMakeFiles/9a.dir/9/9a.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/8a.dir
+  OBJECT_DIR = CMakeFiles/9a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 8a
-  TARGET_PDB = 8a.dbg
+  TARGET_FILE = 9a
+  TARGET_PDB = 9a.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 8b
+# Object build statements for EXECUTABLE target 9b
 
 
 #############################################
-# Order-only phony target for 8b
+# Order-only phony target for 9b
 
-build cmake_object_order_depends_target_8b: phony || CMakeFiles/8b.dir
+build cmake_object_order_depends_target_9b: phony || CMakeFiles/9b.dir
 
-build CMakeFiles/8b.dir/8/8b.cpp.o: CXX_COMPILER__8b_Debug /Users/chensiyuan/aoc2022/8/8b.cpp || cmake_object_order_depends_target_8b
-  DEP_FILE = CMakeFiles/8b.dir/8/8b.cpp.o.d
+build CMakeFiles/9b.dir/9/9b.cpp.o: CXX_COMPILER__9b_Debug /Users/chensiyuan/aoc2022/9/9b.cpp || cmake_object_order_depends_target_9b
+  DEP_FILE = CMakeFiles/9b.dir/9/9b.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/8b.dir
-  OBJECT_FILE_DIR = CMakeFiles/8b.dir/8
+  OBJECT_DIR = CMakeFiles/9b.dir
+  OBJECT_FILE_DIR = CMakeFiles/9b.dir/9
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 8b
+# Link build statements for EXECUTABLE target 9b
 
 
 #############################################
-# Link the executable 8b
+# Link the executable 9b
 
-build 8b: CXX_EXECUTABLE_LINKER__8b_Debug CMakeFiles/8b.dir/8/8b.cpp.o
+build 9b: CXX_EXECUTABLE_LINKER__9b_Debug CMakeFiles/9b.dir/9/9b.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/8b.dir
+  OBJECT_DIR = CMakeFiles/9b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 8b
-  TARGET_PDB = 8b.dbg
+  TARGET_FILE = 9b
+  TARGET_PDB = 9b.dbg
 
 
 #############################################
@@ -133,7 +133,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chensiyuan/aoc2022/cmake-build-debug
 
-build all: phony 8a 8b
+build all: phony 9a 9b
 
 # =============================================================================
 # Built-in targets
