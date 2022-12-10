@@ -38,66 +38,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/chensiyuan/aoc2022/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 10a
+# Object build statements for EXECUTABLE target 11a
 
 
 #############################################
-# Order-only phony target for 10a
+# Order-only phony target for 11a
 
-build cmake_object_order_depends_target_10a: phony || CMakeFiles/10a.dir
+build cmake_object_order_depends_target_11a: phony || CMakeFiles/11a.dir
 
-build CMakeFiles/10a.dir/10/10a.cpp.o: CXX_COMPILER__10a_Debug /Users/chensiyuan/aoc2022/10/10a.cpp || cmake_object_order_depends_target_10a
-  DEP_FILE = CMakeFiles/10a.dir/10/10a.cpp.o.d
+build CMakeFiles/11a.dir/11/11a.cpp.o: CXX_COMPILER__11a_Debug /Users/chensiyuan/aoc2022/11/11a.cpp || cmake_object_order_depends_target_11a
+  DEP_FILE = CMakeFiles/11a.dir/11/11a.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/10a.dir
-  OBJECT_FILE_DIR = CMakeFiles/10a.dir/10
+  OBJECT_DIR = CMakeFiles/11a.dir
+  OBJECT_FILE_DIR = CMakeFiles/11a.dir/11
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 10a
+# Link build statements for EXECUTABLE target 11a
 
 
 #############################################
-# Link the executable 10a
+# Link the executable 11a
 
-build 10a: CXX_EXECUTABLE_LINKER__10a_Debug CMakeFiles/10a.dir/10/10a.cpp.o
+build 11a: CXX_EXECUTABLE_LINKER__11a_Debug CMakeFiles/11a.dir/11/11a.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/10a.dir
+  OBJECT_DIR = CMakeFiles/11a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 10a
-  TARGET_PDB = 10a.dbg
+  TARGET_FILE = 11a
+  TARGET_PDB = 11a.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 10b
+# Object build statements for EXECUTABLE target 11b
 
 
 #############################################
-# Order-only phony target for 10b
+# Order-only phony target for 11b
 
-build cmake_object_order_depends_target_10b: phony || CMakeFiles/10b.dir
+build cmake_object_order_depends_target_11b: phony || CMakeFiles/11b.dir
 
-build CMakeFiles/10b.dir/10/10b.cpp.o: CXX_COMPILER__10b_Debug /Users/chensiyuan/aoc2022/10/10b.cpp || cmake_object_order_depends_target_10b
-  DEP_FILE = CMakeFiles/10b.dir/10/10b.cpp.o.d
+build CMakeFiles/11b.dir/11/11b.cpp.o: CXX_COMPILER__11b_Debug /Users/chensiyuan/aoc2022/11/11b.cpp || cmake_object_order_depends_target_11b
+  DEP_FILE = CMakeFiles/11b.dir/11/11b.cpp.o.d
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
-  OBJECT_DIR = CMakeFiles/10b.dir
-  OBJECT_FILE_DIR = CMakeFiles/10b.dir/10
+  OBJECT_DIR = CMakeFiles/11b.dir
+  OBJECT_FILE_DIR = CMakeFiles/11b.dir/11
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 10b
+# Link build statements for EXECUTABLE target 11b
 
 
 #############################################
-# Link the executable 10b
+# Link the executable 11b
 
-build 10b: CXX_EXECUTABLE_LINKER__10b_Debug CMakeFiles/10b.dir/10/10b.cpp.o
+build 11b: CXX_EXECUTABLE_LINKER__11b_Debug CMakeFiles/11b.dir/11/11b.cpp.o
   FLAGS = -Wall -Wextra -Wshadow -Wpedantic -Werror -fsanitize=address -fsanitize=undefined -DSHAWNA -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
-  OBJECT_DIR = CMakeFiles/10b.dir
+  OBJECT_DIR = CMakeFiles/11b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 10b
-  TARGET_PDB = 10b.dbg
+  TARGET_FILE = 11b
+  TARGET_PDB = 11b.dbg
 
 
 #############################################
@@ -133,7 +133,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chensiyuan/aoc2022/cmake-build-debug
 
-build all: phony 10a 10b
+build all: phony 11a 11b
 
 # =============================================================================
 # Built-in targets
