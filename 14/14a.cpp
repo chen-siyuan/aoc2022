@@ -4,6 +4,5 @@ using namespace std;
 using ll = long long;
 
 int main() {
-    ifstream fin("../13/13.txt");
-    // TODO: parsing :(
+    ifstream fin("../14/14.txt");
 }
